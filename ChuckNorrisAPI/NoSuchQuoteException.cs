@@ -23,6 +23,6 @@ namespace ChuckNorrisAPI
 
         protected NoSuchQuoteException(SerializationInfo info, StreamingContext context) : base(info, context)
         {
-        } // this is a github test
+        }
     }
 }
