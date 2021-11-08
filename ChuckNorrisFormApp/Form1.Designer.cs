@@ -44,25 +44,23 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // comboBox1
+            // categoryComboBox
             // 
             this.categoryComboBox.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.categoryComboBox.FormattingEnabled = true;
             this.categoryComboBox.Location = new System.Drawing.Point(12, 12);
-            this.categoryComboBox.Name = "comboBox1";
+            this.categoryComboBox.Name = "categoryComboBox";
             this.categoryComboBox.Size = new System.Drawing.Size(263, 33);
             this.categoryComboBox.TabIndex = 1;
             this.categoryComboBox.Text = "Categories";
             // 
-            // label1
+            // jokeText
             // 
-            this.jokeText.AutoSize = true;
             this.jokeText.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.jokeText.Location = new System.Drawing.Point(53, 106);
-            this.jokeText.Name = "label1";
-            this.jokeText.Size = new System.Drawing.Size(63, 25);
+            this.jokeText.Location = new System.Drawing.Point(53, 62);
+            this.jokeText.Name = "jokeText";
+            this.jokeText.Size = new System.Drawing.Size(350, 135);
             this.jokeText.TabIndex = 2;
-            this.jokeText.Text = "label1";
             // 
             // Form1
             // 
@@ -76,7 +74,6 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_LoadAsync);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

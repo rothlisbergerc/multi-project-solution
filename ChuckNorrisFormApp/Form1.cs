@@ -17,9 +17,9 @@ namespace ChuckNorrisFormApp
 
             // add categories to category combo box
             IEnumerable<string> categories = await ChuckNorrisClient.GetCategories();
-            foreach (var cat in categories)
+            foreach (var category in categories)
             {
-                categoryComboBox.Items.Add(cat);
+                categoryComboBox.Items.Add(category);
             }
         }
 
