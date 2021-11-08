@@ -36,9 +36,9 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(53, 213);
+            this.button1.Location = new System.Drawing.Point(35, 243);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(350, 65);
+            this.button1.Size = new System.Drawing.Size(514, 65);
             this.button1.TabIndex = 0;
             this.button1.Text = "Tell me a joke!";
             this.button1.UseVisualStyleBackColor = true;
@@ -57,16 +57,16 @@
             // jokeText
             // 
             this.jokeText.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.jokeText.Location = new System.Drawing.Point(53, 62);
+            this.jokeText.Location = new System.Drawing.Point(35, 106);
             this.jokeText.Name = "jokeText";
-            this.jokeText.Size = new System.Drawing.Size(350, 135);
+            this.jokeText.Size = new System.Drawing.Size(514, 111);
             this.jokeText.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(468, 349);
+            this.ClientSize = new System.Drawing.Size(593, 372);
             this.Controls.Add(this.jokeText);
             this.Controls.Add(this.categoryComboBox);
             this.Controls.Add(this.button1);
