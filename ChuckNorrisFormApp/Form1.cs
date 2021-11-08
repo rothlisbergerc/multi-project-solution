@@ -23,6 +23,7 @@ namespace ChuckNorrisFormApp
             }
         }
 
+        // new joke text is generated upon button click
         private async void button1_Click(object sender, EventArgs e)
         {
             Joke j = await ChuckNorrisClient.GetRandomJoke();
