@@ -25,8 +25,6 @@ namespace ChuckNorrisFormApp
 
         private async void button1_Click(object sender, EventArgs e)
         {
-            //jokeText.Text = "Put random joke generator here.";
-
             Joke j = await ChuckNorrisClient.GetRandomJoke();
             jokeText.Text = j.JokeText;
         }
