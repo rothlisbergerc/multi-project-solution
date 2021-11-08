@@ -36,7 +36,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(35, 243);
+            this.button1.Location = new System.Drawing.Point(35, 262);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(514, 65);
             this.button1.TabIndex = 0;
@@ -57,10 +57,11 @@
             // jokeText
             // 
             this.jokeText.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.jokeText.Location = new System.Drawing.Point(35, 106);
+            this.jokeText.Location = new System.Drawing.Point(35, 63);
             this.jokeText.Name = "jokeText";
-            this.jokeText.Size = new System.Drawing.Size(514, 111);
+            this.jokeText.Size = new System.Drawing.Size(514, 184);
             this.jokeText.TabIndex = 2;
+            this.jokeText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
